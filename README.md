@@ -81,7 +81,7 @@ cd ~/catkin_ws
 catkin init
 catkin config --extend /opt/ros/melodic
 catkin config --merge-devel
-catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_FLAGS=-fdiagnostics-color
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-fdiagnostics-color
 ```
 We use wstool to manage packages in the workspace, at least for your initial setup, do:
 ```
