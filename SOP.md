@@ -28,3 +28,10 @@ roslaunch ethzasl_icp_mapper supermegabot_dynamic_mapper.launch
 ```
 
 The above shall run the state estimation with the Lidar
+
+
+To add the map: 
+```bash
+cp /home/avengers/map.pcd /home/smb/
+roslaunch map_imterface map_interface.launch map_file:=/home/smb/map.pcd
+```
