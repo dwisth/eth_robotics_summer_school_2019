@@ -17,3 +17,5 @@ In yet another terminal
 ```bash
 roslaunch ethzasl_icp_mapper supermegabot_dynamic_mapper.launch
 ```
+
+The above shall run the state estimation with the Lidar
